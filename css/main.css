@@ -20,6 +20,10 @@
         gap: 1rem 0;
         flex-wrap: wrap;
     }
+
+    .images-dic img {
+        width: 100%;
+    }
     .accordion .accordion-collapse strong {
         font-size: 1rem;
     }
