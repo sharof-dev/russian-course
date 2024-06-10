@@ -7,9 +7,17 @@
     margin-top: 5rem;
 }
 
+.images-dic {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+}
+
 @media only screen and (max-width: 576px) {
-    .accordion {
-        width: 100%;
+    .images-dic {
+        display: flex;
+        flex-direction: column;
+        flex-wrap: wrap;
     }
     .accordion .accordion-collapse strong {
         font-size: 1rem;
